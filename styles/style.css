@@ -116,7 +116,7 @@ ol {
   font-weight: inherit;
 }
 
-.search-form__label-text:hover{
+.search-form__label:hover .search-form__label-text{
   text-decoration: underline #fff;
   text-underline-offset: 2px;
   cursor: pointer;
@@ -137,8 +137,7 @@ ol {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  
+  line-height: normal; 
 }
 
 .search-form__textfield:hover {
